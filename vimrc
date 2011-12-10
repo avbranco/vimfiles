@@ -208,6 +208,9 @@ set sidescroll=1
 filetype plugin on
 filetype indent on
 
+au! BufRead,BufWrite,BufWritePost,BufNewFile *.org
+au BufEnter *.org call org#SetOrgFileType()
+
 "turn on syntax highlighting
 syntax on
 
