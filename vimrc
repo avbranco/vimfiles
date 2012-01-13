@@ -1,6 +1,8 @@
 "avoiding annoying CSApprox warning message
 let g:CSApprox_verbose_level = 0
 
+let mapleader = ","
+
 "necessary on some Linux distros for pathogen to properly load bundles
 filetype on
 filetype off
@@ -262,7 +264,8 @@ else
         set term=gnome-256color
         colorscheme railscasts
     else
-        colorscheme default
+        set t_Co=256
+        colorscheme railscasts3
     endif
 endif
 
