@@ -226,7 +226,8 @@ set hidden
 
 "Command-T configuration
 let g:CommandTMaxHeight=10
-let g:CommandTMatchWindowAtTop=1
+let g:CommandTMatchWindowAtTop=0
+let g:CommandTCancelMap='<C-x>'
 
 if has("gui_running")
     "tell the term has 256 colors
