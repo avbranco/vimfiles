@@ -233,6 +233,13 @@ let g:CommandTMaxHeight=10
 let g:CommandTMatchWindowAtTop=0
 let g:CommandTCancelMap='<C-x>'
 
+map <leader>gv :CommandT app/views<cr>
+map <leader>gc :CommandT app/controllers<cr>
+map <leader>gm :CommandT app/models<cr>
+map <leader>gh :CommandT app/helpers<cr>
+map <leader>gl :CommandT lib<cr>
+map <leader>gr :CommandT vendor/plugins/rp2server<cr>
+
 if has("gui_running")
     "tell the term has 256 colors
     set t_Co=256
