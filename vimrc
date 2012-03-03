@@ -233,12 +233,12 @@ let g:CommandTMaxHeight=10
 let g:CommandTMatchWindowAtTop=0
 let g:CommandTCancelMap='<C-x>'
 
-map <leader>gv :CommandT app/views<cr>
-map <leader>gc :CommandT app/controllers<cr>
-map <leader>gm :CommandT app/models<cr>
-map <leader>gh :CommandT app/helpers<cr>
-map <leader>gl :CommandT lib<cr>
-map <leader>gr :CommandT vendor/plugins/rp2server<cr>
+map <leader>fv :CommandT app/views<cr>
+map <leader>fc :CommandT app/controllers<cr>
+map <leader>fm :CommandT app/models<cr>
+map <leader>fh :CommandT app/helpers<cr>
+map <leader>fl :CommandT lib<cr>
+map <leader>fr :CommandT vendor/plugins/rp2server<cr>
 
 if has("gui_running")
     "tell the term has 256 colors
@@ -287,7 +287,7 @@ endif
 " nmap <silent> <Leader>q <Plug>PeepOpen
 
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
-nnoremap <silent> <Leader>f :call FindInNERDTree()<CR>
+nnoremap <silent> <Leader>r :call FindInNERDTree()<CR>
 
 "make <c-l> clear the highlight as well as redraw
 nnoremap <C-L> :nohls<CR><C-L>
@@ -297,7 +297,7 @@ inoremap <C-L> <C-O>:nohls<CR>
 nnoremap <leader>b :BufExplorer<cr>
 
 "map to CommandT TextMate style finder
-nnoremap <leader>t :CommandT<CR>
+nnoremap <leader>f :CommandT<CR>
 
 "map Q to something useful
 noremap Q gq
