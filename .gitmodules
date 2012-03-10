@@ -161,3 +161,6 @@
 [submodule "bundle/VimOrganizer"]
 	path = bundle/VimOrganizer
 	url = git://github.com/hsitz/VimOrganizer.git
+[submodule "bundle/tslime.vim"]
+	path = bundle/tslime.vim
+	url = git://github.com/jgdavey/tslime.vim.git
