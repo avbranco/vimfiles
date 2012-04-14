@@ -1,4 +1,6 @@
 "avoiding annoying CSApprox warning message
+set shell=/bin/sh
+
 let g:CSApprox_verbose_level = 0
 
 let mapleader = ","
@@ -30,6 +32,9 @@ set number      "add line numbers
 set showbreak=...
 set wrap linebreak nolist
 set cursorline
+set nobackup
+set noswapfile
+set pastetoggle=<F2>
 
 " Store temporary files in a central spot
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -439,4 +444,5 @@ let g:user_zen_settings = {
   \    'extends' : 'html',
   \  },
  \}
+
 
