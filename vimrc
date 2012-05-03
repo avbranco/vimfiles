@@ -414,12 +414,20 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+"switch into normal mode more easily
+inoremap kj <ESC>
+
 "key mapping for saving file
 nmap <C-s> :w<CR>
 
 "key mapping for tab navigation
 nmap <Tab> gt
 nmap <S-Tab> gT
+
+" Clear the search buffer when hitting return
+:nnoremap <CR> :nohlsearch<cr>"
+
+imap <c-l> <space>=><space>
 
 "Key mapping for textmate-like indentation
 nmap <D-[> <<
