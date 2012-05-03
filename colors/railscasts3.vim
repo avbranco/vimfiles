@@ -69,7 +69,7 @@ hi LineNr                    guifg=#595959 ctermfg=243 guibg=#2b2b2b ctermbg=235
 hi String                    guifg=#A5C261 ctermfg=107
 hi Number                    guifg=#A5C261 ctermfg=107
 hi PreProc                   guifg=#E6E1DC ctermfg=103
-hi Search                    guifg=NONE    ctermfg=NONE guibg=#444444 ctermbg=235
+hi Search                    guifg=NONE    ctermfg=NONE guibg=#444444 ctermbg=235 cterm=underline
 hi IncSearch                 guifg=White   guibg=Black ctermfg=White ctermbg=Black
 hi Title                     guifg=#FFFFFF ctermfg=15
 hi Type                      guifg=#DA4939 ctermfg=167 gui=NONE cterm=NONE
