@@ -244,7 +244,7 @@ map <leader>fc :CommandTFlush<cr>\|:CommandT app/controllers<cr>
 map <leader>fm :CommandTFlush<cr>\|:CommandT app/models<cr>
 map <leader>fh :CommandTFlush<cr>\|:CommandT app/helpers<cr>
 map <leader>fl :CommandTFlush<cr>\|:CommandT lib<cr>
-map <leader>fr :CommandTFlush<cr>\|:CommandT vendor/plugins/rp2server<cr>
+map <leader>fr :CommandTFlush<cr>\|:CommandT lib/rp2_server<cr>
 map <leader>fg :CommandTFlush<cr>\|:CommandT $GEM_HOME/gems<cr>
 
 if has("gui_running")
