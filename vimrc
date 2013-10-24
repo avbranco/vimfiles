@@ -434,3 +434,5 @@ function! NumberToggle()
   endif
 endfunc
 nnoremap <C-n> :call NumberToggle()<cr>
+
+let g:slime_target = "tmux"
