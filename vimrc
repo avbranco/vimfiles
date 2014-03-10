@@ -399,6 +399,12 @@ nmap <S-Tab> gT
 
 imap <c-l> <space>=><space>
 
+"Fix arrow keys that display A B C D on remote shell
+imap <ESC>oA <ESC>ki
+imap <ESC>oB <ESC>ji
+imap <ESC>oC <ESC>li
+imap <ESC>oD <ESC>hi
+
 "Key mapping for textmate-like indentation
 nmap <D-[> <<
 nmap <D-]> >>
@@ -434,5 +440,8 @@ function! NumberToggle()
   endif
 endfunc
 nnoremap <C-n> :call NumberToggle()<cr>
+
+set relativenumber
+set nocompatible
 
 let g:slime_target = "tmux"
