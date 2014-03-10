@@ -306,6 +306,12 @@ nnoremap <leader>b :BufExplorer<cr>
 "map to CommandT TextMate style finder
 nnoremap <leader>f :CommandT<CR>
 
+" RSpec.vim mappings
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>A :call RunAllSpecs()<CR>
+
 "map Q to something useful
 noremap Q gq
 
