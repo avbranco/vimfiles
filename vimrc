@@ -16,6 +16,7 @@ call pathogen#runtime_append_all_bundles()
 "Use Vim settings, rather then Vi settings (much better!).
 "This must be first, because it changes other options as a side effect.
 set nocompatible
+set relativenumber
 
 "allow backspacing over everything in insert mode
 set backspace=indent,eol,start
@@ -435,17 +436,5 @@ let g:user_zen_settings = {
  \}
 
 let g:gitgutter_realtime = 0
-
-function! NumberToggle()
-  if(&relativenumber == 1)
-    set number
-  else
-    set relativenumber
-  endif
-endfunc
-nnoremap <C-n> :call NumberToggle()<cr>
-
-set relativenumber
-set nocompatible
-
 let g:slime_target = "tmux"
+
