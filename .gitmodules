@@ -152,12 +152,12 @@
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
 	url = git://github.com/airblade/vim-gitgutter.git
-[submodule "vim-commentary"]
-	path = vim-commentary
-	url = https://github.com/tpope/vim-commentary.git
 [submodule "bundle/vim-rspec"]
 	path = bundle/vim-rspec
 	url = git@github.com:thoughtbot/vim-rspec.git
 [submodule "bundle/vim-slime"]
 	path = bundle/vim-slime
 	url = git@github.com:jpalardy/vim-slime.git
+[submodule "bundle/vim-commentary"]
+	path = bundle/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
