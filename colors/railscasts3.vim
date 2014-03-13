@@ -49,6 +49,7 @@ hi link htmlEndTag           xmlEndTag
 hi Normal                    guifg=#E6E1DC guibg=#141414 ctermfg=254 ctermbg=NONE
 hi Cursor                    guifg=#000000 ctermfg=0     guibg=#FFFFFF ctermbg=15
 hi CursorLine                guibg=#333333 guifg=NONE cterm=NONE ctermbg=235
+hi SignColumn                guibg=#333333 guifg=NONE cterm=NONE ctermbg=235
 hi CursorCol                 guibg=#333333 guifg=NONE
 hi StatusLine                guifg=Black   guibg=#aabbee gui=bold ctermfg=Black ctermbg=153 cterm=bold
 hi StatusLineNC              guifg=#444444 guibg=#aaaaaa gui=none ctermfg=233   ctermbg=237 cterm=none
