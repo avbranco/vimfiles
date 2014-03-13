@@ -146,9 +146,6 @@
 [submodule "bundle/VimOrganizer"]
 	path = bundle/VimOrganizer
 	url = git://github.com/hsitz/VimOrganizer.git
-[submodule "bundle/tslime.vim"]
-	path = bundle/tslime.vim
-	url = git://github.com/jgdavey/tslime.vim.git
 [submodule "bundle/vimerl"]
 	path = bundle/vimerl
 	url = https://github.com/jimenezrick/vimerl.git
@@ -161,3 +158,6 @@
 [submodule "bundle/vim-rspec"]
 	path = bundle/vim-rspec
 	url = git@github.com:thoughtbot/vim-rspec.git
+[submodule "bundle/vim-slime"]
+	path = bundle/vim-slime
+	url = git@github.com:jpalardy/vim-slime.git
