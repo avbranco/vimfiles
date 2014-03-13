@@ -1,6 +1,6 @@
 "avoiding annoying CSApprox warning message
 ""set shell=/bin/sh
-set shell=/bin/bash
+set shell=/bin/zsh
 
 let g:CSApprox_verbose_level = 0
 
