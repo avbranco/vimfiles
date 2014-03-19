@@ -16,7 +16,23 @@ call pathogen#runtime_append_all_bundles()
 "Use Vim settings, rather then Vi settings (much better!).
 "This must be first, because it changes other options as a side effect.
 set nocompatible
+
 set relativenumber
+set number      "add line numbers
+let g:nonumbers = 0
+function! NumbersToggle()
+  call GitGutterToggle()
+  if(g:nonumbers == 1)
+    set number
+    set relativenumber
+    let g:nonumbers = 0
+  else
+    set nonumber
+    set norelativenumber
+    let g:nonumbers = 1
+  endif
+endfunc
+nnoremap <C-n> :call NumbersToggle()<cr>
 
 "allow backspacing over everything in insert mode
 set backspace=indent,eol,start
@@ -30,7 +46,6 @@ set showmode    "show current mode down the bottom
 set incsearch   "find the next match as we type the search
 set hlsearch    "hilight searches by default
 
-set number      "add line numbers
 set showbreak=...
 set wrap linebreak nolist
 set cursorline
