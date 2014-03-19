@@ -161,3 +161,6 @@
 [submodule "bundle/vim-commentary"]
 	path = bundle/vim-commentary
 	url = git@github.com:tpope/vim-commentary.git
+[submodule "bundle/vim-rubocop"]
+	path = bundle/vim-rubocop
+	url = git@github.com:lad/vim-rubocop.git
