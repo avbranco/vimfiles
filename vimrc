@@ -454,4 +454,4 @@ let g:user_zen_settings = {
 
 let g:gitgutter_realtime = 0
 let g:slime_target = "tmux"
-
+let g:ackprg = 'ag --nogroup --nocolor --column'
