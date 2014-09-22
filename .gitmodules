@@ -164,3 +164,6 @@
 [submodule "bundle/vim-rubocop"]
 	path = bundle/vim-rubocop
 	url = git@github.com:lad/vim-rubocop.git
+[submodule "bundle/hardmode"]
+	path = bundle/hardmode
+	url = git://github.com/wikitopian/hardmode.git
