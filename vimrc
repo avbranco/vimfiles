@@ -250,18 +250,11 @@ set ttymouse=xterm2
 "hide buffers when not displayed
 set hidden
 
-"Command-T configuration
-let g:CommandTMaxHeight=10
-let g:CommandTMatchWindowAtTop=0
-let g:CommandTCancelMap='<C-x>'
-
-map <leader>fv :CommandTFlush<cr>\|:CommandT app/views<cr>
-map <leader>fc :CommandTFlush<cr>\|:CommandT app/controllers<cr>
-map <leader>fm :CommandTFlush<cr>\|:CommandT app/models<cr>
-map <leader>fh :CommandTFlush<cr>\|:CommandT app/helpers<cr>
-map <leader>fl :CommandTFlush<cr>\|:CommandT lib<cr>
-map <leader>fr :CommandTFlush<cr>\|:CommandT lib/rp2_server<cr>
-map <leader>fg :CommandTFlush<cr>\|:CommandT $GEM_HOME/gems<cr>
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_map = '<leader>f'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra'
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 
 if has("gui_running")
     "tell the term has 256 colors
